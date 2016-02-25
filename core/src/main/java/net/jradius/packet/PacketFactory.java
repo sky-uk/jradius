@@ -60,6 +60,7 @@ public class PacketFactory
         codeMap.put(new Integer(PasswordAck.CODE),         PasswordAck.class);          // 8
         codeMap.put(new Integer(PasswordReject.CODE),      PasswordReject.class);       // 9
         codeMap.put(new Integer(AccessChallenge.CODE),     AccessChallenge.class);      // 11
+        codeMap.put(new Integer(StatusServer.CODE),        StatusServer.class);         // 12
         codeMap.put(new Integer(DisconnectRequest.CODE),   DisconnectRequest.class);    // 40
         codeMap.put(new Integer(DisconnectACK.CODE),       DisconnectACK.class);        // 41
         codeMap.put(new Integer(DisconnectNAK.CODE),       DisconnectNAK.class);        // 42
